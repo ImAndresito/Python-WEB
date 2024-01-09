@@ -50,7 +50,6 @@ def author() -> rx.Component:
 def author_buttons() -> rx.Component:
     return rx.box(
         button("Youtube", constants.YOUTUBE_URL),
-        button("Twitch", constants.TWITCH_URL),
         button("GitHub", constants.GITHUB_URL),
     )
 
