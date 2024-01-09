@@ -2,12 +2,16 @@ import reflex as rx
 
 import Python_WEB.constants as constants
 import Python_WEB.styles.styles as styles
+from Python_WEB.styles.fonts import Font
 from Python_WEB.styles.styles import Size, TextColor
 
 
 def header() -> rx.Component:
     return rx.vstack(
-        rx.heading("Tattoo GIVEAWAY", size="lg", padding_bottom=Size.DEFAULT.value),
+        rx.heading(
+            "Tattoo GIVEAWAY",
+            padding_bottom=Size.DEFAULT.value,
+        ),
         rx.flex(
             rx.image(
                 src="logo.png",

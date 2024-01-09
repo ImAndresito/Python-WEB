@@ -27,7 +27,11 @@ BASE_STYLE = {
     "font_family": Font.DEFAULT.value,
     "color": TextColor.PRIMARY.value,
     "background": Color.PRIMARY.value,
-    rx.Heading: {"font_family": Font.DEFAULT.value, "color": TextColor.ACCENT.value},
+    rx.Heading: {
+        "font_family": Font.DEFAULT.value,
+        "color": TextColor.ACCENT.value,
+        "font_size": ["1.27em", "1.75em", "1.85em", "1.85em"],
+    },
     rx.Link: {
         "text_decoration": "none",
         "_hover": {
