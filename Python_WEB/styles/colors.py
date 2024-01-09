@@ -9,7 +9,7 @@ class Color(Enum):
 
 
 class TextColor(Enum):
-    ACCENT = "#EA5940"
+    ACCENT = "#EA5940 !important"
     PRIMARY = "#FFFFFF"
     SECONDARY = "#212529"
     TERTIARY = "#D3D3D3"
