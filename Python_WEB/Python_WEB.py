@@ -41,7 +41,7 @@ app = rx.App(stylesheets=styles.STYLESHEETS, style=styles.BASE_STYLE)
 
 app.add_page(
     index,
-    title="Tattoo GIVEWAY",
+    title="Tattoo GIVEAWAY",
     description="Ogni mese si sorteggiano 3 tatuaggi gratuiti a tema Anime!",
 )
 

@@ -7,7 +7,7 @@ from Python_WEB.styles.styles import Size, TextColor
 
 def header() -> rx.Component:
     return rx.vstack(
-        rx.heading("Tattoo GIVEWAY", size="lg", padding_bottom=Size.DEFAULT.value),
+        rx.heading("Tattoo GIVEAWAY", size="lg", padding_bottom=Size.DEFAULT.value),
         rx.flex(
             rx.image(
                 src="logo.png",
