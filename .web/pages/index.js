@@ -10,7 +10,7 @@ import NextHead from "next/head"
 
 
 
-export function Simplegrid_c8c8f90f20c4bd40b5a65e8eddafbf33 () {
+export function Simplegrid_2c57babbdfe44ba54c68bae810949333 () {
 
 
   return (
@@ -149,7 +149,7 @@ export default function Component() {
   {`Disegni Disponibili`}
 </Heading>
 </HStack>
-  <Simplegrid_c8c8f90f20c4bd40b5a65e8eddafbf33/>
+  <Simplegrid_2c57babbdfe44ba54c68bae810949333/>
   <Script src={`/js/countdown.js`} strategy={`afterInteractive`}/>
 </VStack>
   <VStack sx={{"alignItems": "start", "paddingX": "2em", "width": "100%", "maxWidth": "1000px"}}>
@@ -176,11 +176,6 @@ export default function Component() {
   <Link as={NextLink} href={`https://youtube.com`} isExternal={true} sx={{"textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
   <Button className={`nes-btn is-error`} sx={{"marginBottom": "1em", "height": "2.75em", "color": "#212529 !important", "_hover": {"color": "#FFFFFF !important"}}}>
   {`Youtube`}
-</Button>
-</Link>
-  <Link as={NextLink} href={`https://www.twitch.tv`} isExternal={true} sx={{"textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
-  <Button className={`nes-btn is-error`} sx={{"marginBottom": "1em", "height": "2.75em", "color": "#212529 !important", "_hover": {"color": "#FFFFFF !important"}}}>
-  {`Twitch`}
 </Button>
 </Link>
   <Link as={NextLink} href={`https://github.com/ImAndresito`} isExternal={true} sx={{"textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
